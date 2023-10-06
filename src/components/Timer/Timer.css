@@ -1,0 +1,46 @@
+.timer-container {
+  position: relative;
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.close-btn {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-weight: bolder;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.edit-target {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.edit-target:disabled {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
